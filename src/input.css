@@ -27,3 +27,36 @@ body {
 .burger-active > span:nth-child(3) {
     @apply -rotate-45;
 }
+
+.rotanim{
+    display: block;
+    height: 100%;
+    animation: spin_words 6s infinite;
+}
+
+@keyframes spin_words{
+    10%{
+        transform: translateY(-101%);
+    }
+    25%{
+        transform: translateY(-100%);
+    }
+    35%{
+        transform: translateY(-201%);
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+    60%{
+        transform: translateY(-301%);
+    }
+    75%{
+        transform: translateY(-300%);
+    }
+    85%{
+        transform: translateY(-401%);
+    }
+    100%{
+        transform: translateY(-400%);
+    }
+}
