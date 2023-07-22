@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #1e1c1c;
+    color: #e5e5e5;
+}
+
+.navbar-fixed {
+    @apply fixed z-[9999] bg-dark rounded-br-xl shadow-xl;
+}
+
+.burger-line {
+    @apply w-[30px] h-[2px] my-2 block bg-neutral-200;
+}
+
+.burger-active > span:nth-child(1) {
+    @apply rotate-45;
+}
+
+.burger-active > span:nth-child(2) {
+    @apply scale-0;
+}
+
+.burger-active > span:nth-child(3) {
+    @apply -rotate-45;
+}
