@@ -8,12 +8,16 @@ body {
     color: #e5e5e5;
 }
 
+
 .navbar-fixed {
-    @apply fixed z-[9999] bg-dark rounded-br-xl shadow-xl;
+    @apply fixed z-[9999] bg-dark shadow-xl;
 }
 
 .burger-line {
-    @apply w-[30px] h-[2px] my-2 block bg-neutral-200;
+    @apply w-[30px] h-[2px] my-2 block bg-neutral-200 rounded-full;
+}
+.burger-line2 {
+    @apply w-[15px] h-[2px] my-2 block bg-neutral-200 ml-auto rounded-full;
 }
 
 .burger-active > span:nth-child(1) {
@@ -21,7 +25,7 @@ body {
 }
 
 .burger-active > span:nth-child(2) {
-    @apply scale-0;
+    @apply scale-0 -translate-x-5;
 }
 
 .burger-active > span:nth-child(3) {
@@ -29,34 +33,53 @@ body {
 }
 
 .rotanim{
-    display: block;
-    height: 100%;
     animation: spin_words 6s infinite;
 }
 
 @keyframes spin_words{
     10%{
-        transform: translateY(-101%);
+        transform: translateY(-105%);
     }
     25%{
         transform: translateY(-100%);
     }
     35%{
-        transform: translateY(-201%);
+        transform: translateY(-205%);
     }
     50%{
         transform: translateY(-200%);
     }
     60%{
-        transform: translateY(-301%);
+        transform: translateY(-305%);
     }
     75%{
         transform: translateY(-300%);
     }
     85%{
-        transform: translateY(-401%);
+        transform: translateY(-405%);
     }
     100%{
         transform: translateY(-400%);
     }
+}
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    @apply bg-transparent;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-milk;
+    border-radius: 100vh;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary;
+  }
 }

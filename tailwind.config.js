@@ -7,15 +7,16 @@ module.exports = {
         center:true,
         padding: '16px',
       },
-      extend:{
-        screens:{
+      screens:{
           '2xl':'1320px',
-        },
+      },
+      scale: {
+        '2.1': '2.1',
       },
       colors: {
         dark: '#1e1c1c',
         milk: '#e5e5e5',
-        primary : '#593D69',
+        primary : '#3DB1AA',
       },
     },
   },
