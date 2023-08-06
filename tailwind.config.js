@@ -17,6 +17,7 @@ module.exports = {
         dark: '#1e1c1c',
         milk: '#e5e5e5',
         primary : '#3DB1AA',
+        secprimary: '#262626',
       },
     },
   },
