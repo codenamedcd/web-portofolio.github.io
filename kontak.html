@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth hover:scroll-auto">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PT Laskar Jaya</title>
+    <link href="dist/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <!-- Header start -->
+    <header class="bg-transparent w-full fixed top-0 z-50 transition duration-300 ease-in-out">
+      <div class="container">
+        <div class="flex items-center justify-between relative lg:mx-12">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-milk text-base block py-4 lg:text-2xl">PT Laskar Jaya</a>
+          </div>
+          <div class="flex items-center relative">
+            <button id="burger" name="burger" type="button" class="block absolute right-4 lg:hidden">
+              <span class="burger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="burger-line transition duration-300 ease-in-out origin-right"></span>
+              <span class="burger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+          </div>
+          <nav id="nav-menu" class="invisible absolute w-full lg:w-fit top-16 right-0 px-4 py-4 lg:visible lg:static lg:bg-transparent lg:max-w-full bg-dark border-b-4 border-primary lg:border-0 rounded-xl">
+            <div class="text-center lg:gap-6 lg:flex mr-0 lg:mr-5">
+              <a href="index.html" class="font-bold justify-center text-xs lg:text-base py-2 text-milk flex hover:text-primary">Home</a>
+              <a href="tentang.html" class="font-bold justify-center text-xs lg:text-base py-2 text-milk flex hover:text-primary">Tentang</a>
+              <a href="kontak.html" class="font-bold justify-center text-xs lg:text-base py-2 flex text-primary">Kontak</a>
+              <a href="#home" class="font-bold justify-center text-xs lg:text-base py-2 text-dark flex bg-primary rounded-full mx-20 lg:mx-0 lg:px-5 hover:opacity-60 transition duration-300 ease-in-out">Masuk</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Hero section start-->
+    <div class="relative">
+      <img class="absolute -z-50 h-[620px] w-auto object-cover lg:w-full lg:h-[690px]" src="https://www.hashmicro.com/blog/wp-content/uploads/2022/10/Tools-16.jpg" alt="" />
+    </div>
+    <section id="home" class="lg:py-44 overflow-hidden">
+      <div class="container">
+        <div class="lg:mx-12 mt-36 lg:mt-8">
+          <div class="w-full self-center px-4">
+            <h1 class="text-primary text-base text-center lg:text-left font-bold lg:text-3xl">Kontak Kami</h1>
+            <p class="text-xs lg:text-xl text-center lg:text-left pb-1 text-milk lg:mt-2">Hubungi kami untuk segala pertanyaan Anda</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- contact start -->
+    <section class="mt-32 lg:mt-2 bg-dark pt-12 lg:py-20">
+      <div class="container">
+        <div class="py-4 mt-8 lg:mt-16 lg:py-0 lg:mb-8 lg:mx-0">
+          <div class="bg-primary py-[1px] px-[20px] lg:px-[28px] w-fit mx-auto rounded-full mb-3"></div>
+          <h2 class="text-lg font-bold text-milk text-center lg:text-2xl">Kontak Kami</h2>
+        </div>
+        <div class="flex flex-wrap lg:mx-56 py-8">
+          <div class="py-5 w-full text-center lg:w-1/2">
+            <h4 class="text-primary text-sm lg:text-xl pb-2">Founder</h4>
+            <h5 class="text-milk text-xs lg:text-lg py-1">Arief Sulistyo Wibowo</h5>
+            <h5 class="text-milk text-xs lg:text-lg">Mukhammad Rivaldi Ghani</h5>
+          </div>
+          <div class="py-5 w-full text-center lg:w-1/2">
+            <h4 class="text-primary text-sm lg:text-xl pb-2">Thanks to</h4>
+            <h5 class="text-milk text-xs lg:text-lg py-1">Lab SIM UPN "Veteran" Jawa Timur</h5>
+            <h5 class="text-milk text-xs lg:text-lg">TailwindCSS</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- Footer start -->
+    <footer class="py-2 bg-primary lg:mt-20 shadow-lg">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div id="about" class="w-full my-4 px-4 text-center">
+            <div class="bg-dark py-[1px] px-[20px] lg:px-[28px] w-fit mx-auto rounded-full mb-3"></div>
+            <h5 class="font-semibold text-dark text-sm lg:text-lg">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2023 PT Laskar Jaya</h5>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
