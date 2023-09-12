@@ -1,5 +1,4 @@
 body {
-  font-family: monospace;
   background-color: var(--body);
   font-family: "Bubblegum Sans", cursive;
 }
@@ -30,6 +29,9 @@ h2 {
 p {
   color: var(--primary);
 }
+a {
+  text-decoration: none;
+}
 nav {
   text-align: center;
   margin: 4rem auto 6rem auto;
@@ -44,17 +46,14 @@ nav h1 {
 
 section {
   margin: 5rem 2rem;
-  padding: 1rem 1rem;
+  padding: 2rem 1rem;
   background-color: var(--semidark);
   box-shadow: 0 0.5rem var(--dark), 0 1rem rgb(0 0 0 / 0.1);
   border-radius: 0.6rem;
   text-align: center;
   position: relative;
 }
-.sec-1 {
-  display: flex;
-}
-.sec-1 h1 {
+section h1 {
   margin: 0 0;
   top: 0;
   left: 50%;
@@ -62,11 +61,27 @@ section {
   position: absolute;
   text-transform: uppercase;
 }
+.sec-1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .card {
   padding: 1.5rem 1.5rem;
-  margin: 2rem 2rem;
+  margin: 1rem 0;
   display: flex;
-  width: 50%;
+  width: 40%;
+  background-color: var(--normal);
+  border-radius: 0.4rem;
+  box-shadow: 0 0.5rem var(--seminormal), 0 1rem rgb(0 0 0 / 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.card:hover {
+  transform: translateY(4px);
+  box-shadow: 0 0.3rem var(--seminormal), 0 0.8rem rgb(0 0 0 / 0.1);
 }
 .title-card {
   margin: 0 0 0 1rem;
@@ -89,7 +104,7 @@ section {
   background-color: var(--semidark);
   box-shadow: 0 0.5rem var(--dark), 0 1rem rgb(0 0 0 / 0.1);
   border-radius: 0.6rem;
-  width: 10rem;
+  width: 12rem;
 }
 img {
   border-radius: 0.6rem;
@@ -97,17 +112,6 @@ img {
   height: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
-}
-
-.btn-design {
-  background-color: var(--normal);
-  border-radius: 0.4rem;
-  box-shadow: 0 0.5rem var(--seminormal), 0 1rem rgb(0 0 0 / 0.1);
-  cursor: pointer;
-}
-.btn-design:hover {
-  transform: translateY(4px);
-  box-shadow: 0 0.3rem var(--seminormal), 0 0.8rem rgb(0 0 0 / 0.1);
 }
 
 /* mobile */
