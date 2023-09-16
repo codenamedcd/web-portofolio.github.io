@@ -64,7 +64,6 @@ section h1 {
 .sec-1 {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: space-around;
 }
 
@@ -84,7 +83,7 @@ section h1 {
   box-shadow: 0 0.3rem var(--seminormal), 0 0.8rem rgb(0 0 0 / 0.1);
 }
 .title-card {
-  margin: 0 0 0 1rem;
+  margin: 0;
   text-align: left;
   width: 100%;
   height: 100%;
@@ -101,6 +100,7 @@ section h1 {
 }
 
 .image {
+  margin: 0 1rem 0 0;
   background-color: var(--semidark);
   box-shadow: 0 0.5rem var(--dark), 0 1rem rgb(0 0 0 / 0.1);
   border-radius: 0.6rem;
@@ -117,11 +117,11 @@ img {
 /* mobile */
 @media screen and (max-width: 707px) {
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-shadow: 0 0.2rem var(--semiprimary), 0 0.4rem rgb(0 0 0 / 0.1);
   }
   h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-shadow: 0 0.2rem var(--semiprimary), 0 0.3rem rgb(0 0 0 / 0.1);
   }
   nav {
@@ -132,7 +132,7 @@ img {
     padding: 1rem 1rem;
   }
   section {
-    margin: 0 1rem;
+    margin: 5rem 2rem;
   }
   .sec-1 {
     flex-wrap: wrap;

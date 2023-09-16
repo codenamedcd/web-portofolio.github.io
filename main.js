@@ -1,9 +1,15 @@
 const items = [
   {
     judul: "PT Laskar Jaya",
-    subjudul: "Landing Page Persewaan Alat Berat (Tailwind CSS)",
+    subjudul: "Landing Page Persewaan Alat Berat (Responsive)",
     gambar: "asset/ptlaskarjaya.png",
     link: "https://codenamedcd.github.io/laskarjaya/",
+  },
+  {
+    judul: "PT Laskar Jaya",
+    subjudul: "Website Persewaan Alat Berat (Not Responsive)",
+    gambar: "asset/ptlaskarjaya.png",
+    link: "http://laskarjaya.rf.gd/home.php",
   },
   {
     judul: "Sedotinaja",
