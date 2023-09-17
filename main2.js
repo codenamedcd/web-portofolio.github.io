@@ -1,7 +1,7 @@
 const projects = [
   {
     judul: "Word Counter",
-    subjudul: "Word and character counter",
+    subjudul: "Penghitung jumlah kata dan huruf (buat logbook msib wkwkwk)",
     link: "https://codenamedcd.github.io/wordcounter/",
   },
 ];
