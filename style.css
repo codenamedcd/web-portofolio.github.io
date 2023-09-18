@@ -64,7 +64,8 @@ section h1 {
   position: absolute;
   text-transform: uppercase;
 }
-.sec-1 {
+.sec-1,
+.sec-2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
