@@ -107,11 +107,11 @@ section h1 {
   margin: 0 1rem 0 0;
   background-color: var(--semidark);
   box-shadow: 0 0.5rem var(--dark), 0 1rem rgb(0 0 0 / 0.1);
-  border-radius: 0.6rem;
+  border-radius: 0.4rem;
   width: 12rem;
 }
 img {
-  border-radius: 0.6rem;
+  border-radius: 0.4rem;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -135,14 +135,15 @@ img {
     padding: 1rem 1rem;
   }
   section {
-    margin: 5rem 2rem;
+    margin: 3rem 0.2rem;
+    padding: 1rem 0;
   }
   .sec-1 {
     flex-wrap: wrap;
   }
   .card {
     padding: 1rem 1rem;
-    margin: 1rem 0.5rem;
+    margin: 0.5rem 0;
     width: 90%;
   }
   .title-card p {
@@ -151,5 +152,19 @@ img {
   }
   .image {
     width: 10rem;
+  }
+  nav,
+  section,
+  .image,
+  .title-card p {
+    box-shadow: 0 0.2rem var(--dark), 0 0.5rem rgb(0 0 0 / 0.1);
+  }
+
+  .card {
+    box-shadow: 0 0.2rem var(--seminormal), 0 0.5rem rgb(0 0 0 / 0.1);
+  }
+  .card:hover {
+    transform: translateY(2px);
+    box-shadow: 0 0.1rem var(--seminormal), 0 0.4rem rgb(0 0 0 / 0.1);
   }
 }
