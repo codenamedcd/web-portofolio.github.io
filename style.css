@@ -124,7 +124,7 @@ img {
     text-shadow: 0 0.2rem var(--semiprimary), 0 0.4rem rgb(0 0 0 / 0.1);
   }
   h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-shadow: 0 0.2rem var(--semiprimary), 0 0.3rem rgb(0 0 0 / 0.1);
   }
   nav {
@@ -147,7 +147,7 @@ img {
     width: 90%;
   }
   .title-card p {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     margin: 0.5rem 0 0 0;
   }
   .image {
