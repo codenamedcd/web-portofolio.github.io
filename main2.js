@@ -2,7 +2,7 @@ const projects = [
   {
     judul: "Word Counter",
     subjudul: "Penghitung jumlah kata dan huruf serta pengubah kapital",
-    link: "https://codenamedcd.github.io/wordcounter/",
+    link: "https://wordcounter-dcd.vercel.app/",
   },
 ];
 
