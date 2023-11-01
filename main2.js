@@ -4,6 +4,11 @@ const projects = [
     subjudul: "Penghitung jumlah kata dan huruf serta pengubah kapital",
     link: "https://wordcounter-dcd.vercel.app/",
   },
+  {
+    judul: "To Do List",
+    subjudul: "Catatan kegiatan sesuai urutan prioritas",
+    link: "https://todolist-dcd.vercel.app/",
+  },
 ];
 
 // function add
