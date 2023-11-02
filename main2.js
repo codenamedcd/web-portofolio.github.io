@@ -6,7 +6,7 @@ const projects = [
   },
   {
     judul: "To Do List",
-    subjudul: "Catatan kegiatan sesuai urutan prioritas",
+    subjudul: "Catatan rencana kegiatan sehari-hari",
     link: "https://todolist-dcd.vercel.app/",
   },
 ];
