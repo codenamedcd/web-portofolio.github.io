@@ -9,6 +9,11 @@ const projects = [
     subjudul: "Catatan rencana kegiatan sehari-hari",
     link: "https://todolist-dcd.vercel.app/",
   },
+   {
+    judul: "Type Test Custom",
+    subjudul: "Tes kecepatan ketikan dengan kata-kata custom",
+    link: "https://typetestcustom.vercel.app/",
+  },
 ];
 
 // function add
