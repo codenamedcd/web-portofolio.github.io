@@ -14,6 +14,11 @@ const projects = [
     subjudul: "Tes kecepatan ketikan dengan kata-kata custom",
     link: "https://typetestcustom.vercel.app/",
   },
+  {
+    judul: "Random Number Generator",
+    subjudul: "Pembuat angka acak dengan fitur desimal dan pengurutan angka",
+    link: "https://randomnumber-generator.vercel.app/",
+  },
 ];
 
 // function add
