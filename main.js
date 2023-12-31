@@ -1,40 +1,47 @@
-const items = [
+const projects = [
+  {
+    judul: "Word Counter",
+    subjudul: "Penghitung jumlah kata dan huruf serta pengubah kapital",
+    link: "https://wordcounter-dcd.vercel.app/",
+  },
   {
     judul: "PT Laskar Jaya",
-    subjudul: "Landing Page Persewaan Alat Berat (Responsive)",
-    gambar: "asset/ptlaskarjaya.png",
+    subjudul: "Landing page persewaan alat berat",
     link: "https://codenamedcd.github.io/laskarjaya/",
   },
   {
-    judul: "PT Laskar Jaya",
-    subjudul: "Website Persewaan Alat Berat (Not Responsive)",
-    gambar: "asset/ptlaskarjaya.png",
-    link: "http://laskarjaya.rf.gd/home.php",
-  },
-  {
     judul: "Sedotinaja",
-    subjudul: "Landing Page Layanan Sedot Tinja",
+    subjudul: "Landing page layanan sedot tinja",
     gambar: "asset/sedotinaja.png",
     link: "https://codenamedcd.github.io/sedotinaja/",
+  },
+  {
+    judul: "To Do List",
+    subjudul: "Catatan rencana kegiatan sehari-hari",
+    link: "https://todolist-dcd.vercel.app/",
+  },
+  {
+    judul: "Type Test Custom",
+    subjudul: "Tes kecepatan ketikan dengan kata-kata custom",
+    link: "https://typetestcustom.vercel.app/",
+  },
+  {
+    judul: "Random Number Generator",
+    subjudul: "Pembuat angka acak + desimal & pengurutan",
+    link: "https://randomnumber-generator.vercel.app/",
   },
 ];
 
 // function add
-function parseItemsToCards() {
+function parseprojectsToCards() {
   const cards = [];
 
-  for (let i = 0; i < items.length; i++) {
-    const currentCard = items[i];
+  for (let i = 0; i < projects.length; i++) {
+    const currentCard = projects[i];
 
     // add new div
     const divCard = document.createElement("a");
     divCard.classList.add("card");
-
-    const divImg = document.createElement("div");
-    divImg.classList.add("image");
-
-    const targetImg = document.createElement("img");
-    divImg.appendChild(targetImg);
 
     const divTitle = document.createElement("div");
     divTitle.classList.add("title-card");
@@ -48,12 +55,9 @@ function parseItemsToCards() {
     targetTitle.textContent = currentCard.judul;
     // set subtitle
     targetSubtitle.textContent = currentCard.subjudul;
-    // set src img
-    targetImg.setAttribute("src", currentCard.gambar);
     // set link
     divCard.setAttribute("href", currentCard.link);
 
-    divCard.appendChild(divImg);
     divCard.appendChild(divTitle);
 
     cards.push(divCard);
@@ -63,15 +67,15 @@ function parseItemsToCards() {
 }
 
 function main() {
-  const secOne = document.querySelector(".sec-1");
+  const secTwo = document.querySelector(".sec-2");
 
-  const parsedCards = parseItemsToCards();
+  const parsedCards = parseprojectsToCards();
 
   for (let i = 0; i < parsedCards.length; i++) {
-    secOne.append(parsedCards[i]);
+    secTwo.append(parsedCards[i]);
   }
 
-  document.body.append(secOne);
+  document.body.append(secTwo);
 }
 
 main();
