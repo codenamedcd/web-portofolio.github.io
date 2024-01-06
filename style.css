@@ -120,6 +120,7 @@ img {
 /* mobile */
 @media screen and (max-width: 707px) {
   h1 {
+    text-align: center;
     font-size: 1.5rem;
     text-shadow: 0 0.2rem var(--semiprimary), 0 0.4rem rgb(0 0 0 / 0.1);
   }
@@ -128,14 +129,14 @@ img {
     text-shadow: 0 0.2rem var(--semiprimary), 0 0.3rem rgb(0 0 0 / 0.1);
   }
   nav {
-    margin: 2rem 2rem 4rem 2rem;
+    margin: 0 2rem;
     width: 80%;
   }
-  nav h1 {
+  /* nav h1 {
     padding: 1rem 1rem;
-  }
+  } */
   section {
-    margin: 3rem 0.2rem;
+    margin: 0 0.2rem;
     padding: 1rem 0;
   }
   .sec-1 {
@@ -153,7 +154,6 @@ img {
   .image {
     width: 10rem;
   }
-  nav,
   section,
   .image,
   .title-card p {
