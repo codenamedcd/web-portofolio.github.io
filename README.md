@@ -1,1 +1,1 @@
-page link: https://codenamedcd.github.io
+page link: https://dcdzen.github.io
