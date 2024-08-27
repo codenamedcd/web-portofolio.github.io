@@ -7,13 +7,13 @@ const projects = [
   {
     judul: "PT Laskar Jaya",
     subjudul: "Landing page persewaan alat berat",
-    link: "https://codenamedcd.github.io/laskarjaya/",
+    link: "https://dcdzen.github.io/laskarjaya/",
   },
   {
     judul: "Sedotinaja",
     subjudul: "Landing page layanan sedot tinja",
     gambar: "asset/sedotinaja.png",
-    link: "https://codenamedcd.github.io/sedotinaja/",
+    link: "https://dcdzen.github.io/sedotinaja/",
   },
   {
     judul: "To Do List",
